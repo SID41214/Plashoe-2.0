@@ -1,0 +1,121 @@
+.free-top-bar{
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: small;
+    height: 40px;
+    color: rgb(151,154,177);
+    padding-top: 8px;
+}
+
+.navbar-container{
+    background-color: #F1F1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    box-shadow: 2px 2px 4px rgba(61, 52, 52, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+    
+.navbar-left-logo{
+    flex: 1;
+    padding-left: 50px;
+    
+}
+
+/* .navbar-features{
+    float: left; */
+    /* height: 50px;
+    padding-top: 10px;
+} */
+.navbar-features{
+    flex: 2;
+    
+    
+}
+ 
+
+.navbar-features ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navbar-features ul li{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.5s ease;
+}
+
+.navbar-features ul li:hover{
+    color: rgba(13, 10, 10, 0.971);
+}
+
+.navbar-features ul a{
+    text-decoration: none;
+    color: rgb(151,154,155);
+}
+.search-box {
+    width: 55px;
+    height: 30px;
+    border: 1px solid rgba(120, 129, 139, 0.734);
+    border-radius: 50px;
+    transition: width 0.3s;
+}
+
+.search-box:focus {
+    width: 15em; 
+}
+
+.search-button{
+    height: 30px;
+    border: 1px solid rgba(120, 129, 139, 0.734);
+    border-radius: 50px;
+}
+
+.navbar-right{
+    flex: 1;
+    width: 400px;
+    padding-right: 50px;
+    /* margin-left: 190px; */
+    
+}
+
+.navbar-right ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+    
+}
+.navbar-right a{
+    text-decoration: none;
+    color: rgb(151,154,155);
+    /* margin: 20px; */
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.navbar-right li{
+    transition: color 0.5s ease;
+}
+
+.navbar-right li:hover{
+    color: rgb(13, 10, 10);
+}
+
+.cart-icon, .login-icon{
+    color: black;
+    
+}
+.logout-icon{
+    background: inherit;
+    border: 1px solid white;
+}

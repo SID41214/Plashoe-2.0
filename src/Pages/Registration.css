@@ -1,0 +1,40 @@
+.registration-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .registration-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .registration-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #1e7e34;
+  }
+  
